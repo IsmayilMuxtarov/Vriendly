@@ -20,7 +20,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
             integrity="sha256-pTxD+DSzIwmwhOqTFN+DB+nHjO4iAsbgfyFq5K5bcE0=" crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="upcoming/upcoming.css"/>
+    <link rel="stylesheet" href="try-vriendly/try-vriendly.css"/>
     <title>Vriendly</title>
 </head>
 <body>
@@ -77,7 +77,7 @@
             <li class="order-vriendly">
                 <p><span>Order Vriendly</span></p>
                 <div class="items">
-                    <a href="register.html"><span>Registration</span></a>
+                    <a href="index.html#about-us"><span>Registration</span></a>
                     <a href="upcoming.html"><span>Upcoming session</span></a>
                 </div>
             </li>
@@ -168,17 +168,54 @@
 <!-- MAIN START -->
 <main id="main">
     <div class="bg-image">
-        <iframe id="ticketsetup"
-                allowtransparency="true"
-                src="https://vriendly-test.ticketsetup.com/en/tickets?iframe=true"
-                width="100%"
-                height="550px"
-                style="border:none;
-                /*background-image: url(../images/bg-with-overlay5-01-min.png);*/
-                /*background-attachment: fixed;*/
-                position:relative;
-                margin-top: 100px;">
-        </iframe>
+        <div class="register-container">
+            <h1 class="register-title">Try Vriendly</h1>
+            <form class="register-form">
+                <input class="form-inputs" name="fullName" type="text" placeholder="Full Name">
+                <input class="form-inputs" name="email" type="email" placeholder="Email">
+                <input class="form-inputs" name="organization" type="text" placeholder="Organization">
+                <input class="form-inputs" name="region" type="text" placeholder="Region">
+
+                <div name="device" id="device" class="form-device-select">
+                    <p class="device-value">Device</p>
+                    <div class="device-arrow-icon"></div>
+                    <div class="device-select-options">
+                        <span value="Oculus Quest" class="option">Oculus Quest</span>
+                        <span value="Windows OS" class="option">Windows OS</span>
+                        <span value="Mac OS" class="option">Mac OS</span>
+                        <span value="Linux OS" class="option">Linux OS</span>
+                        <span value="Other*" class="option">Other*</span>
+                    </div>
+                </div>
+                <input class="form-inputs other-device" name="device" type="text" placeholder="Other Device">
+
+
+                <div name="sessionType" id="sessionType" class="form-session-select">
+                    <p class="session-value">Session type</p>
+                    <div class="session-arrow-icon"></div>
+                    <div class="session-select-options">
+                        <span value="Group sessions" class="option">Group sessions</span>
+                        <span value="Private parties" class="option">Private parties</span>
+                        <span value="Startup Bootcamps" class="option">Startup Bootcamps</span>
+                        <span value="Demo days" class="option">Demo days</span>
+                        <span value="Startup events or workshops" class="option">Startup events or workshops</span>
+                        <span value="Startup Competitions" class="option">Startup Competitions</span>
+                        <span value="Other*" class="option">Other*</span>
+                    </div>
+                </div>
+                <input class="form-inputs other-session-type" name="sessionType" type="text"
+                       placeholder="Other Session type">
+
+                 <input class="form-inputs" name="countUsers" type="text" placeholder="How many user?">
+                <input class="form-inputs" name="countHours" type="text" placeholder="How many hours?">
+                <textarea class="form-message" name="message" type="text" placeholder="Message"></textarea>
+                <input class="form-submit" value="SENT" type="submit">
+            </form>
+            <div class="bottom-text">
+                <h3>thank you!</h3>
+                <h3>we will contact you soon</h3>
+            </div>
+        </div>
     </div>
 </main>
 <!-- MAIN END -->
@@ -292,7 +329,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
-<script src="upcoming/upcoming.js"></script>
+<script src="try-vriendly/try-vriendly.js"></script>
 <!-- <script src="./js/script2.js"></script> -->
 
 <!-- animations on scroll -->

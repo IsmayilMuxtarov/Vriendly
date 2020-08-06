@@ -14,6 +14,10 @@
 
     <link rel="shortcut icon" type="image/png" sizes="167x167" href="./images/favicon-43-min.png"/>
 
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
     <!-- FONT -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600i,700&display=swap" rel="stylesheet">
 
@@ -75,14 +79,14 @@
                     <a href="#partners"><span>Our Partners</span></a>
                 </div>
             </li>
-            <li class="order-vriendly">
+            <li style="display: none" class="order-vriendly">
                 <p><span>Order Vriendly</span></p>
                 <div class="items">
                     <a href="register.html"><span>Registration</span></a>
-                    <a href="upcoming.html"><span>Upcoming session</span></a>
                 </div>
             </li>
-            <li class="contact-us"><a href="#contact-us"><span>Contact Us</span></a></li>
+            <li class="register"><a href="register.html"><span>Register your session</span></a></li>
+            <li class="upcoming"><a href="upcoming.html"><span>Upcoming session</span></a></li>
         </ul>
     </nav>
 
@@ -133,15 +137,8 @@
                     <a href="#partners"><span>Our Partners</span></a>
                 </div>
             </li>
-            <li class="contact-us"><a href="#contact-us"><span>Contact Us</span></a></li>
-            <li class="order-vriendly" id="ordervriendly">
-                <a href="#ordervriendly"><span>Order Vriendly<img src="./images/down-arrow-01-min.png"
-                                                                  alt="right arrow"></span></a>
-                <div class="items">
-                    <a href=""><span>Our Team</span></a>
-                    <a href=""><span>Our Partners</span></a>
-                </div>
-            </li>
+            <li class="register"><a href="register.html"><span>Register your session</span></a></li>
+            <li class="upcoming"><a href="upcoming.html"><span>Upcoming session</span></a></li>
         </ul>
     </nav>
 
@@ -191,7 +188,7 @@
                     <span>The Virtual</span> World
                 </div>
                 <div>
-                    To Reshape <span>The Future</span>
+                    To Reshapes <span>The Future</span>
                 </div>
                 <div>
                     Of <span>Startups</span>
@@ -233,13 +230,19 @@
             <div class="about-us_first_text">
                 <h2>About Us</h2>
                 <p>
-                    We are the first "wave" of innovators and believers in the new world that is going to be powered by
-                    virtual reality transforming all areas of our lives. The world we know and see today will never be
-                    the same again.
+                    We are the early adopters,hardcore gamers and believers in the new world that is going to be altered
+                    by virtual reality technology and 3D environments transforming how we interact and build businesses.
                 </p>
                 <p>
-                    What we truly believe and thrive for, are the new model of ourselves and the community of education
-                    and innovation seekers. We are certain that they are the powerhouse of the future.
+                    Our special focus is on <span style="font-weight: bold;">startups</span> and <span
+                        style="font-weight: bold;">founders</span> and what they feel and deal
+                    with while building their companies. Whether it is organizing virtual <span
+                        style="font-weight: bold;">gatherings,</span> <span
+                        style="font-weight: bold;">demo days,</span> <span
+                        style="font-weight: bold;">educational programs</span> or meeting founders from all around
+                    the world,
+                    Vriendly makes it possible
+                    to create experiences.
                 </p>
             </div>
             <h1>KNOWLEDGE<br/>INVESTMENT<br/>ADVICE<br/>NETWORK</h1>
@@ -263,8 +266,7 @@
                         enables users to hold effective sessions in a meaningful way. We believe that whether it is
                         drawing and texting on a beautifully designed whiteboard, sharing, uploading and downloading
                         files instantly through sessions or engaging with each other, it creates meaningful experience
-                        to learn and enjoy.
-                    </p>
+                        to learn and enjoy.</p>
                     <p>
                         Spatial audio makes this process super natural and there is no difference between the real
                         world. And this is not the end of what can be experienced. Users can go off the sessions and
@@ -353,7 +355,7 @@
                         <line id="feature-1-line-5" class="cls-3" x1="17.17" y1="39.33" x2="14.67" y2="39.33"/>
                     </svg>
                 </div>
-                <h3>Smart education</h3>
+                <h3>P2P learning</h3>
                 <p>
                     We believe that peer-2-peer education is one of the effective ways to learn by making mistakes
                     without hesitation. We are born to make mistakes and that what makes human being stronger.
@@ -572,10 +574,10 @@
                               d="M36.12,36v9.62a1.44,1.44,0,0,1-1.44,1.44h0a1.44,1.44,0,0,1-1.44-1.44v-7.1A1.27,1.27,0,0,0,32,37.27h0a1.27,1.27,0,0,0-1.27,1.27v7.1a1.44,1.44,0,0,1-1.44,1.44h0a1.44,1.44,0,0,1-1.44-1.44V30.54a1.26,1.26,0,0,0-.4-.93l-6-5.56a1.44,1.44,0,0,1-.07-2l0,0a1.44,1.44,0,0,1,2-.07l5.12,4.79a1.27,1.27,0,0,0,.87.34h5.17a1.29,1.29,0,0,0,.87-.34l5.12-4.79a1.44,1.44,0,0,1,2,.07l0,0a1.44,1.44,0,0,1-.07,2l-6,5.59a1.26,1.26,0,0,0-.4.93V36Z"/>
                     </svg>
                 </div>
-                <h3>Social engagement</h3>
+                <h3>Zero Social distance</h3>
                 <p>
-                    Liberate the way you interact through VR without physical and mental restrictions anywhere in the
-                    world.
+                    Organize any kind of event whether formal or informal and never stop being active and social even
+                    you if you do not have a startup yet. Vriendly liberates the life of founders.
                 </p>
             </div>
         </div>
@@ -820,23 +822,6 @@
                 </div>
             </div>
             <div class="member">
-                <img src="./images/team/rauf.png" alt="Rauf Ismayilov"/>
-                <div class="info">
-                    <h3>Rauf<br/>Ismayilov</h3>
-                    <p>CTO | Partner</p>
-                    <div class="social-links">
-                        <a rel="noreferrer"
-                           href="https://www.linkedin.com/in/rauf-ismayilov-a28a82aa/?fbclid=IwAR220_Rw5EsqW6LZ-QZl2tu5WZ9Jz0xwOIfiUaajAMTMvCxtagp4MlcSqss"
-                           target="_blank"><img src="./images/team/linkedin.png" alt="linkedin"></a>
-                        <a rel="noreferrer"
-                           href="https://openaztech.com/?fbclid=IwAR0bb3XSmVx37z7AXuYOowoau7lS2MQrSALthO0RwmMg_0fflhV2fHEAGOg"
-                           target="_blank"><img src="./images/team/web.png" alt="website"></a>
-                        <a rel="noreferrer" href="mailto:rauf@vriendly.co" target="_blank"><img
-                                src="./images/team/email.png" alt="email"></a>
-                    </div>
-                </div>
-            </div>
-            <div class="member">
                 <img src="./images/team/yagub.png" alt="Yagub Mehdiyev">
                 <div class="info">
                     <h3>Yagub<br/>Mehdiyev</h3>
@@ -1057,11 +1042,11 @@
             <div class="contact-us">
                 <h2>Contact Us</h2>
                 <div class="items">
-                    <a rel="noreferrer" id="mail-to" href="mailto:ulvi@vriendly.co">
-                        <p>ulvi@vriendly.co</p>
+                    <a rel="noreferrer" id="mail-to" href="mailto:info@vriendly.co">
+                        <p>info@vriendly.co</p>
                     </a>
-                    <p id="address">Boston, MA, 02101.</p>
-                    <p id="phone">+16174190727</p>
+                    <p id="address">Sunnyvale, CA</p>
+                    <!--                    <p id="phone">+16174190727</p>-->
                     <div class="links">
                         <a rel="noreferrer" href="https://www.linkedin.com/company/vriendly1/" target="_blank"><img
                                 src="./images/footer/linkedin-footer-min.png"
@@ -1116,10 +1101,10 @@
         </div>
 
         <div class="address">
-            <p>Boston, MA, 02101.</p>
+            <p>Sunnyvale, CA</p>
         </div>
         <div class="phone">
-            <p>+16174190727</p>
+            <!--            <p>+16174190727</p>-->
         </div>
 
         <div class="copyright">
@@ -1131,10 +1116,6 @@
 <!-- FOOTER END -->
 
 <div class="tracker"></div>
-
-<!-- jQuery -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
-        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
 <script src="./js/script.js"></script>
 <!-- <script src="./js/script2.js"></script> -->

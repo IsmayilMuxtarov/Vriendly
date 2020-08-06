@@ -317,7 +317,8 @@ const navButton = document.querySelector("header > div.nav-button");
 const navMenu = document.querySelector("header nav.small-screen");
 const menuItems = document.querySelector("header nav.small-screen ul");
 const menuLinks = document.querySelectorAll("header nav.small-screen ul li > .items a");
-const menuLinkContactUs = document.querySelector("header nav.small-screen ul li.contact-us a");
+const menuLinkRegister = document.querySelector("header nav.small-screen ul li.register a");
+const menuLinkUpcoming = document.querySelector("header nav.small-screen ul li.upcoming a");
 const patternSmScreen = document.querySelector(
     "body > header > img.pattern-sm-screen"
 );
@@ -325,11 +326,19 @@ navButton.addEventListener("click", openMenu);
 menuLinks.forEach(menuLink => {
     menuLink.addEventListener("click", closeMenu);
 });
-menuLinkContactUs.addEventListener("click", () => {
-    setTimeout(() => {
-        closeMenu();
-    }, 680)
-});
+
+console.log(menuLinkRegister + "---" + menuLinkUpcoming)
+// menuLinkRegister.addEventListener("click", () => {
+//     setTimeout(() => {
+//         closeMenu();
+//     }, 680)
+// });
+//
+// menuLinkUpcoming.addEventListener("click", () => {
+//     setTimeout(() => {
+//         closeMenu();
+//     }, 680)
+// });
 
 function openMenu() {
     navButton.classList.toggle("close");
@@ -361,12 +370,12 @@ function checkTimes() {
 }
 
 function soundOff() {
-    soundIcon.src = "../images/sound-off-icon-min.png";
+    soundIcon.src = "./images/sound-off-icon-min.png";
     timesClicked = 1;
 }
 
 function soundOn() {
-    soundIcon.src = "../images/sound-on-icon-min.png";
+    soundIcon.src = "./images/sound-on-icon-min.png";
     timesClicked = 0;
 }
 
@@ -409,7 +418,8 @@ const menuHeadingOurCompany = document.querySelector("body > header > nav.big-sc
 const menuHeadingWhatWeDo = document.querySelector("body > header > nav.big-screen > ul > li.what-we-do > p");
 const menuHeadingOrderVriendly = document.querySelector("body > header > nav.big-screen > ul > li.order-vriendly > p");
 const menuHeadingWhoWeAre = document.querySelector("body > header > nav.big-screen > ul > li.who-we-are > p");
-const menuHeadingContactUs = document.querySelector("body > header > nav.big-screen > ul > li.contact-us");
+const menuHeadingRegister = document.querySelector("body > header > nav.big-screen > ul > li.register");
+const menuHeadingUpcoming = document.querySelector("body > header > nav.big-screen > ul > li.upcoming");
 const ourCompany = document.querySelector("body > header > nav.big-screen > ul > li.our-company > div.items");
 const whatWeDo = document.querySelector("body > header > nav.big-screen > ul > li.what-we-do > div.items");
 const orderVriendly = document.querySelector("body > header > nav.big-screen > ul > li.order-vriendly > div.items");
@@ -422,7 +432,8 @@ menuHeadingOurCompany.addEventListener('mouseenter', openOurCompany);
 menuHeadingWhatWeDo.addEventListener('mouseenter', openWhatWeDo);
 menuHeadingOrderVriendly.addEventListener('mouseenter', openOrderVriendly);
 menuHeadingWhoWeAre.addEventListener('mouseenter', openWhoWeAre);
-menuHeadingContactUs.addEventListener('mouseenter', closeOthers);
+menuHeadingRegister.addEventListener('mouseenter', closeOthers);
+menuHeadingUpcoming.addEventListener('mouseenter', closeOthers);
 ourCompany.addEventListener('mouseleave', closeOurCompany);
 whatWeDo.addEventListener('mouseleave', closeWhatWeDo);
 whoWeAre.addEventListener('mouseleave', closeWhoWeAre);

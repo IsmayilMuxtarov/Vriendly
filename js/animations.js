@@ -346,7 +346,7 @@ footerContactUsPhoneObserver = new IntersectionObserver(entries => {
         }
     });
 }, config);
-footerContactUsPhoneObserver.observe(footerContactUsPhone);
+// footerContactUsPhoneObserver.observe(footerContactUsPhone);
 
 const footerContactUsLinks = document.querySelector('#contact-us > div.footer-big-screen > div.upper > div.contact-us > div > div');
 footerContactUsLinksObserver = new IntersectionObserver(entries => {

@@ -922,10 +922,10 @@ header .logo a img {
 }
 
 header nav.big-screen {
-    margin-left: 190px;
-    margin-right: 145px;
+    margin-left: 50px;
+    margin-right: 45px;
     margin-top: 48px;
-    width: 50%;
+    width: 70%;
 }
 
 header nav.big-screen ul {
@@ -1570,8 +1570,8 @@ header nav.big-screen ul li.order-vriendly .items a span {
 }
 
 /*----------------------------*/
-header nav.big-screen ul li.contact-us {
-    width: 85px;
+header nav.big-screen ul li.upcoming {
+    width: 200px;
     height: auto;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1588,7 +1588,7 @@ header nav.big-screen ul li.contact-us {
     align-items: flex-start;
 }
 
-header nav.big-screen ul li.contact-us a {
+header nav.big-screen ul li.upcoming a {
     text-decoration: none;
     position: relative;
     display: block;
@@ -1596,23 +1596,21 @@ header nav.big-screen ul li.contact-us a {
     color: #fffefc;
     font-size: 1rem;
     color: rgba(255, 254, 252, 0);
-    position: relative;
+}
+
+header nav.big-screen ul li.upcoming a span::before {
+    content: "Upcoming session";
+}
+
+header nav.big-screen ul li.upcoming a span::after {
+    content: "Upcoming session";
+}
+
+header nav.big-screen ul li.upcoming a span {
     display: block;
 }
 
-header nav.big-screen ul li.contact-us a span::before {
-    content: "Contact Us";
-}
-
-header nav.big-screen ul li.contact-us a span::after {
-    content: "Contact Us";
-}
-
-header nav.big-screen ul li.contact-us a span {
-    display: block;
-}
-
-header nav.big-screen ul li.contact-us a span::before {
+header nav.big-screen ul li.upcoming a span::before {
     position: absolute;
     background: transparent;
     color: rgba(255, 254, 252, 0.5);
@@ -1629,12 +1627,12 @@ header nav.big-screen ul li.contact-us a span::before {
     transition: all 0.32s ease-out;
 }
 
-header nav.big-screen ul li.contact-us a span:hover::before {
+header nav.big-screen ul li.upcoming a span:hover::before {
     -webkit-transform: rotateX(0deg) translateY(0px);
     transform: rotateX(0deg) translateY(0px);
 }
 
-header nav.big-screen ul li.contact-us a span::after {
+header nav.big-screen ul li.upcoming a span::after {
     position: absolute;
     color: #fffefc;
     background: transparent;
@@ -1650,10 +1648,98 @@ header nav.big-screen ul li.contact-us a span::after {
     transition: all 0.32s ease-out;
 }
 
-header nav.big-screen ul li.contact-us a span:hover::after {
+header nav.big-screen ul li.upcoming a span:hover::after {
     -webkit-transform: rotateX(90deg) translateY(-5px);
     transform: rotateX(90deg) translateY(-5px);
 }
+
+/*_____________________________*/
+
+header nav.big-screen ul li.register {
+    width: 200px;
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+header nav.big-screen ul li.register a {
+    text-decoration: none;
+    position: relative;
+    display: block;
+    width: 100%;
+    color: #fffefc;
+    font-size: 1rem;
+    color: rgba(255, 254, 252, 0);
+}
+
+header nav.big-screen ul li.register a span::before {
+    content: "Register your session";
+}
+
+header nav.big-screen ul li.register a span::after {
+    content: "Register your session";
+}
+
+header nav.big-screen ul li.register a span {
+    display: block;
+}
+
+header nav.big-screen ul li.register a span::before {
+    position: absolute;
+    background: transparent;
+    color: rgba(255, 254, 252, 0.5);
+    top: 0;
+    left: 0;
+    z-index: 2;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transform: rotateX(90deg) translateY(5px);
+    transform: rotateX(90deg) translateY(5px);
+    -webkit-transform-origin: bottom;
+    transform-origin: bottom;
+    -webkit-transition: all 0.32s ease-out;
+    transition: all 0.32s ease-out;
+}
+
+header nav.big-screen ul li.register a span:hover::before {
+    -webkit-transform: rotateX(0deg) translateY(0px);
+    transform: rotateX(0deg) translateY(0px);
+}
+
+header nav.big-screen ul li.register a span::after {
+    position: absolute;
+    color: #fffefc;
+    background: transparent;
+    top: 0;
+    left: 0;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transform: rotateX(0deg) translateY(0px);
+    transform: rotateX(0deg) translateY(0px);
+    -webkit-transform-origin: top;
+    transform-origin: top;
+    -webkit-transition: all 0.32s ease-out;
+    transition: all 0.32s ease-out;
+}
+
+header nav.big-screen ul li.register a span:hover::after {
+    -webkit-transform: rotateX(90deg) translateY(-5px);
+    transform: rotateX(90deg) translateY(-5px);
+}
+
+/*_____________________________*/
+
 
 header .sound-lang-wrapper {
     display: -webkit-box;
@@ -1826,8 +1912,8 @@ header nav.small-screen ul li {
     display: none;
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
-    -webkit-transform-style: preserve;
-    transform-style: preserve;
+    /*-webkit-transform-style: preserve;*/
+    /*transform-style: preserve;*/
 }
 
 header nav.small-screen ul li:nth-child(1) {
@@ -1962,7 +2048,12 @@ header nav.small-screen ul li.who-we-are {
     height: auto;
 }
 
-header nav.small-screen ul li.contact-us {
+header nav.small-screen ul li.register {
+    width: 100%;
+    height: auto;
+}
+
+header nav.small-screen ul li.upcoming {
     width: 100%;
     height: auto;
 }
@@ -1990,6 +2081,7 @@ header .nav-button {
     -webkit-transform-origin: left;
     transform-origin: left;
     z-index: 103;
+    display: none;
     /* position: relative; */
 }
 
@@ -5121,7 +5213,7 @@ section#customers .customers-container {
     -ms-flex-align: center;
     align-items: center;
     width: 80vw;
-    cursor: -webkit-grab;
+    /*cursor: -webkit-grab;*/
     cursor: grab;
 }
 
@@ -6157,7 +6249,7 @@ section#partners .partners-container {
     align-items: center !important;
     width: 90vw;
     height: 200px;
-    cursor: -webkit-grab;
+    /*cursor: -webkit-grab;*/
     cursor: grab;
 }
 
@@ -6184,7 +6276,7 @@ section#partners .partners-container .owl-stage .owl-item {
 section#partners .partners-container .owl-stage .partner.item {
     width: 150px;
     margin: 0px;
-    display: -webkit-inline-box;
+    /*display: -webkit-inline-box;*/
     display: -ms-inline-flexbox;
     display: inline-flex;
     -webkit-box-align: center;
@@ -7458,8 +7550,8 @@ footer#contact-us div.footer-sm-screen .copyright p {
     -webkit-animation: cursorAnim3 .7s ease-out forwards;
     animation: cursorAnim3 .7s ease-out forwards;
     background: rgba(255, 254, 252, 0);
-    -webkit-box-shadow: 0 0 0px -5px rgba(255, 254, 252, 0);
-    box-shadow: 0 0 0px -5px rgba(255, 254, 252, 0);
+    -webkit-box-shadow: 0 0 0 -5px rgba(255, 254, 252, 0);
+    box-shadow: 0 0 0 -5px rgba(255, 254, 252, 0);
     border: none;
 }
 
@@ -7469,7 +7561,8 @@ footer#contact-us div.footer-sm-screen .copyright p {
 @media only screen and (min-width: 1600px) {
 
     header nav.big-screen {
-        margin-left: 0;
+        margin-left: 20px;
+        /*margin-right: */
     }
 
     header .nav-button {
@@ -7853,10 +7946,10 @@ footer#contact-us div.footer-sm-screen .copyright p {
     }
 
     header nav.big-screen {
-        margin-left: 150px;
-        margin-right: 100px;
+        margin-left: 20px;
+        margin-right: 20px;
         margin-top: 48px;
-        width: 48%;
+        width: 70%;
     }
 
     header .nav-button {
@@ -8274,8 +8367,8 @@ footer#contact-us div.footer-sm-screen .copyright p {
     }
 
     header nav.big-screen {
-        margin-left: 130px;
-        margin-right: 65px;
+        margin-left: 75px;
+        margin-right: 0;
         margin-top: 46px;
     }
 
@@ -9523,7 +9616,7 @@ footer#contact-us div.footer-sm-screen .copyright p {
         margin-left: 90px;
         margin-right: 36px;
         margin-top: 41px;
-        width: 48% ı;
+        width: 48%;
     }
 
     header .sound-lang-wrapper {
@@ -11279,7 +11372,7 @@ footer#contact-us div.footer-sm-screen .copyright p {
     section#customers .customers-container {
         margin-top: 44px;
         width: 80vw;
-        cursor: -webkit-grab;
+        /*cursor: -webkit-grab;*/
         cursor: grab;
     }
 
@@ -15353,7 +15446,7 @@ footer#contact-us div.footer-sm-screen .copyright p {
     section#partners .partners-container .owl-stage .partner.item {
         width: 150px;
         margin: 0;
-        display: -webkit-inline-box;
+        /*display: -webkit-inline-box;*/
         display: -ms-inline-flexbox;
         display: inline-flex;
         -webkit-box-align: center;
@@ -16767,7 +16860,7 @@ footer#contact-us div.footer-sm-screen .copyright p {
     section#partners .partners-container .owl-stage .partner.item {
         width: 150px;
         margin: 0px;
-        display: -webkit-inline-box;
+        /*display: -webkit-inline-box;*/
         display: -ms-inline-flexbox;
         display: inline-flex;
         -webkit-box-align: center;
@@ -18134,7 +18227,7 @@ footer#contact-us div.footer-sm-screen .copyright p {
     section#partners .partners-container .owl-stage .partner.item {
         width: 150px;
         margin: 0px;
-        display: -webkit-inline-box;
+        /*display: -webkit-inline-box;*/
         display: -ms-inline-flexbox;
         display: inline-flex;
         -webkit-box-align: center;
@@ -19604,7 +19697,7 @@ footer#contact-us div.footer-sm-screen .copyright p {
     section#partners .partners-container .owl-stage .partner.item {
         width: 150px;
         margin: 0px;
-        display: -webkit-inline-box;
+        /*display: -webkit-inline-box;*/
         display: -ms-inline-flexbox;
         display: inline-flex;
         -webkit-box-align: center;
@@ -20748,8 +20841,8 @@ footer#contact-us div.footer-sm-screen .copyright p {
 
     section#partners .partners-container .owl-stage .partner.item {
         width: 150px;
-        margin: 0px;
-        display: -webkit-inline-box;
+        margin: 0;
+        /*display: -webkit-inline-box;*/
         display: -ms-inline-flexbox;
         display: inline-flex;
         -webkit-box-align: center;

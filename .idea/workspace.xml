@@ -1,22 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="de527a6d-55f6-40c8-b72a-4e5dc2e9cd00" name="Default Changelist" comment="" />
+    <list default="true" id="61583472-a22d-4ede-ad04-94e8a74312e1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/VR.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vriendlywebsite.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/animations.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/animations.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register/register.css" beforeDir="false" afterPath="$PROJECT_DIR$/register/register.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register/register.js" beforeDir="false" afterPath="$PROJECT_DIR$/register/register.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/try-vriendly.html" beforeDir="false" afterPath="$PROJECT_DIR$/try-vriendly.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/try-vriendly/try-vriendly.css" beforeDir="false" afterPath="$PROJECT_DIR$/try-vriendly/try-vriendly.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/try-vriendly/try-vriendly.js" beforeDir="false" afterPath="$PROJECT_DIR$/try-vriendly/try-vriendly.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upcoming.html" beforeDir="false" afterPath="$PROJECT_DIR$/upcoming.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upcoming/upcoming-animation.js" beforeDir="false" afterPath="$PROJECT_DIR$/upcoming/upcoming-animation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upcoming/upcoming.css" beforeDir="false" afterPath="$PROJECT_DIR$/upcoming/upcoming.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upcoming/upcoming.js" beforeDir="false" afterPath="$PROJECT_DIR$/upcoming/upcoming.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="HTML File" />
-        <option value="CSS File" />
-        <option value="JavaScript File" />
-      </list>
-    </option>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1f8JTQKANUjYLeow4DK39sWBFuY" />
+  <component name="ProjectId" id="1faWyWmeeAxao04fUpP8Gecch6z" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -24,84 +40,30 @@
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\vriendlywebsite" />
-      <recent name="C:\vriendlywebsite\upcoming" />
-    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="de527a6d-55f6-40c8-b72a-4e5dc2e9cd00" name="Default Changelist" comment="" />
-      <created>1595593798136</created>
+      <changelist id="61583472-a22d-4ede-ad04-94e8a74312e1" name="Default Changelist" comment="" />
+      <created>1596456939209</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1595593798136</updated>
-      <workItem from="1595593825792" duration="12180000" />
-      <workItem from="1595623441342" duration="6474000" />
-      <workItem from="1595631416323" duration="2339000" />
-      <workItem from="1595677294714" duration="640000" />
-      <workItem from="1595700874450" duration="7777000" />
-      <workItem from="1595766233678" duration="3872000" />
-      <workItem from="1595791238256" duration="16764000" />
-      <workItem from="1595851164236" duration="8367000" />
-      <workItem from="1595878618491" duration="11495000" />
-      <workItem from="1595932015734" duration="29422000" />
-      <workItem from="1596032352198" duration="749000" />
-      <workItem from="1596057006177" duration="2972000" />
-      <workItem from="1596104518320" duration="1152000" />
-      <workItem from="1596144392301" duration="887000" />
-      <workItem from="1596182063969" duration="23406000" />
-      <workItem from="1596239391461" duration="11749000" />
-      <workItem from="1596284234696" duration="15752000" />
-      <workItem from="1596307306646" duration="7585000" />
+      <updated>1596456939209</updated>
+      <workItem from="1596456949476" duration="13634000" />
+      <workItem from="1596553849658" duration="875000" />
+      <workItem from="1596582730596" duration="1351000" />
+      <workItem from="1596651443297" duration="4392000" />
+      <workItem from="1596658012410" duration="1477000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="410" y="168" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595860558840">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="410" y="168" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1595860558840" />
-    <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1595947408052">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1595947408052" />
-    <state x="339" y="162" key="run.anything.popup" timestamp="1596301880454">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1596301880454" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1596244274243">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1596244274243" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/upcoming/upcoming.js</url>
-          <line>249</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/upcoming/upcoming.js</url>
-          <line>310</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

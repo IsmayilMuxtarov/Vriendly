@@ -438,6 +438,14 @@ function closeWhoWeAre() {
     }, 10);
 }
 
+// Home cta button
+// --------------------
+document.querySelector('.home-cta-button').addEventListener('click', () => {
+    location.replace("https://www.vriendly.co/try-vriendly.html");
+});
+
+
+// --------------------
 // ABOUT US IMAGE OVERLAY
 // const abtImgOne = document.querySelector('#about-us > div.about-us_second > div.row1 > div.col1 > img:nth-child(1)');
 // const abtImgOneGalleryIcon = document.querySelector('#about-us > div.about-us_second > div.row1 > div.col1 > img:nth-child(2)');

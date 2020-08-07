@@ -2221,8 +2221,8 @@ main {
 
 main div.bg-image {
     position: absolute;
-    top: 0%;
-    left: 0%;
+    top: 0;
+    left: 0;
 }
 
 main div.bg-image > img {
@@ -2233,7 +2233,7 @@ main div.bg-image > img {
 /* HERO SECTION START */
 section#home {
     width: 100vw;
-    height: auto;
+    height: 100vh;
     position: relative;
     margin: 0px auto;
 }
@@ -7571,7 +7571,7 @@ footer#contact-us div.footer-sm-screen .copyright p {
 
     /* HERO SECTION START */
     section#home {
-        height: auto;
+        height: 100vh;
     }
 
     section#home div.foreground .hero-text {
@@ -7788,7 +7788,7 @@ footer#contact-us div.footer-sm-screen .copyright p {
 
     /* HERO SECTION START */
     section#home {
-        height: auto;
+        height: 100vh;
     }
 
     section#home div.foreground .hero-text {
@@ -7862,7 +7862,7 @@ footer#contact-us div.footer-sm-screen .copyright p {
 
     /* HERO SECTION START */
     section#home {
-        height: auto;
+        height: 100vh;
     }
 
     section#home div.foreground .hero-text {
@@ -8800,7 +8800,7 @@ footer#contact-us div.footer-sm-screen .copyright p {
 
     /* HERO SECTION START */
     section#home {
-        height: auto;
+        height: 100vh;
     }
 
     section#home div.foreground .hero-text {
@@ -9631,7 +9631,7 @@ footer#contact-us div.footer-sm-screen .copyright p {
 
     /* HERO SECTION START */
     section#home {
-        height: auto;
+        height: 100vh;
     }
 
     section#home div.foreground .hero-text {
@@ -10650,7 +10650,7 @@ footer#contact-us div.footer-sm-screen .copyright p {
     /* HEADER END */
     /* HERO SECTION START */
     section#home {
-        height: auto;
+        height: 100vh;
     }
 
     section#home div.foreground .hero-text {
@@ -11492,7 +11492,7 @@ footer#contact-us div.footer-sm-screen .copyright p {
     /* LOADING ENDS */
     /* HERO SECTION START */
     section#home {
-        height: auto;
+        height: 100vh;
     }
 
     section#home div.foreground .accomplishment {
@@ -11564,7 +11564,7 @@ footer#contact-us div.footer-sm-screen .copyright p {
     /* HEADER END */
     /* HERO SECTION START */
     section#home {
-        height: auto;
+        height: 100vh;
     }
 
     section#home div.foreground .hero-text {
@@ -12100,7 +12100,7 @@ footer#contact-us div.footer-sm-screen .copyright p {
 
     /* HERO SECTION START */
     section#home {
-        height: auto;
+        height: 100vh;
     }
 
     section#home div.foreground .hero-text {
@@ -14012,7 +14012,7 @@ footer#contact-us div.footer-sm-screen .copyright p {
     /* HEADER END */
     /* HERO SECTION START */
     section#home {
-        height: auto;
+        height: 100vh;
     }
 
     section#home div.foreground .hero-text {
@@ -14862,7 +14862,7 @@ footer#contact-us div.footer-sm-screen .copyright p {
 
     /* HERO SECTION START */
     section#home {
-        height: auto;
+        height: 100vh;
     }
 
     section#home div.foreground .hero-text {
@@ -18577,7 +18577,7 @@ footer#contact-us div.footer-sm-screen .copyright p {
     /* HEADER START */
     /* HERO SECTION START */
     section#home {
-        height: auto;
+        height: 100vh;
     }
 
     section#home div.foreground .hero-text {
@@ -19845,7 +19845,7 @@ footer#contact-us div.footer-sm-screen .copyright p {
     /* LOADING ENDS */
     /* HERO SECTION START */
     section#home {
-        height: auto;
+        height: 100vh;
     }
 
     section#home div.foreground .hero-text {

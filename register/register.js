@@ -229,7 +229,7 @@ registerForm.addEventListener('submit', (e) => {
     }
 
     if (userIsFull()) {
-        postData(user);
+        // postData(user);
         showBottomTexts();
         resetForm();
         console.log(user);
